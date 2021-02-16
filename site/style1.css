@@ -51,10 +51,10 @@ background-color:lightblue;
 text-align:center;
 border:2px solid black;
 }
-@media only screen and (min-width:1040px) and ( max-width:1300px){
- h3{
+@media only screen and (min-width:1081px) and ( max-width:1300px){
+ h3{ display:all;
 font-size: 0.8em;}
-h4{
+h4{display: all;
 font-size: 0.8em;
 }
 h5,h6,p{
@@ -64,7 +64,7 @@ text-align: center;
 }
 @media only screen and (min-width:940px) and ( max-width:1080px){
  h3{
-display: none;}
+display:all; font-size: 01.1em;}
 h4{
 font-size: 0.8em;
 }
@@ -99,5 +99,5 @@ text-align: center;
 }
 h1,h2,h4,h5,h6,p{
 	position: relative;
-	right: -250px;}
+	right: -320px;}
 }
